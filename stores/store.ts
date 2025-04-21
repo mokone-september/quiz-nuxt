@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
 
-export const quizagaStore = defineStore("quizaga", {
+export const quizStore = defineStore("quiz", {
   state: () => ({
     trivia: [],
     category: 14,

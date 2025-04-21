@@ -48,11 +48,11 @@
 </style>
 <script setup>
 import { ref, computed, onMounted, onUnmounted, watch } from "vue";
-import { quizagaStore } from "@/stores/store";
+import { quizStore } from "@/stores/store";
 import { useRouter } from "vue-router";
 import { getTopicName, getTopicIcon } from "@/services/utils.js";
 
-const store = quizagaStore();
+const store = quizStore();
 const loadQuizByCategory = (category) => {
   store.category = category;
   const router = useRouter();

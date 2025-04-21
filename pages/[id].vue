@@ -91,11 +91,11 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted, watch } from "vue";
 import { getTopicName } from "@/services/utils.js";
-import { quizagaStore } from "@/stores/store";
+import { quizStore } from "@/stores/store";
 import { useRouter, useRoute } from "vue-router";
 import confetti from "canvas-confetti";
 
-const store = quizagaStore();
+const store = quizStore();
 const route = useRoute();
 
 // Reactives
