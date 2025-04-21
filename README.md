@@ -10,7 +10,7 @@ A mobile and web app built with Vue3, Nuxt3, and TailwindCSS that allows users t
 - Responsive design for both mobile and desktop
 
 ## Screenshot
-<img src="https://i.imgur.com/j5Uhpgi.png" width=32%>&nbsp; <img src="https://i.imgur.com/rbc3aDZ.png" width=32%>&nbsp; <img src="https://i.imgur.com/3GiM7yK.png" width=32%>
+<img src="https://imgur.com/a/NJelvT4" width=32%>&nbsp; <img src="https://imgur.com/a/NJelvT4" width=32%>&nbsp; <img src="https://imgur.com/a/NJelvT4.png" width=32%>
 
 ## Project demo
 [https://quiz-nuxt-smoky.vercel.app/](https://quiz-nuxt-smoky.vercel.app/)
