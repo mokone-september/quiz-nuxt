@@ -18,13 +18,13 @@ A mobile and web app built with Vue3, Nuxt3, and TailwindCSS that allows users t
 ## Project setup
 ##### Install dependencies
 ```
-npm install --legacy-peer-deps
+pnpm install --legacy-peer-deps
 ```
 ##### Compiles and hot-reloads for development
 ```
-npm run dev
+pnpm run dev
 ```
 ##### Compiles and minifies for production
 ```
-npm run build
+pnpm run build
 ```
