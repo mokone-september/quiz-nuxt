@@ -26,10 +26,10 @@
 </template>
 <script setup>
 import { onMounted } from "vue";
-import { quizagaStore } from "@/stores/store";
+import { quizaStore } from "@/stores/store";
 import { getTopicName, getTopicIcon } from "@/services/utils.js";
 import confetti from "canvas-confetti";
-const store = quizagaStore();
+const store = quizStore();
 const props = defineProps(["userScore", "category"]);
 
 onMounted(() => {
